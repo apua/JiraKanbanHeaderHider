@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A7E8BCC2ACBD0320026AB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BCB2ACBD0320026AB1A /* AppDelegate.swift */; };
+		5A7E8BCE2ACBD0320026AB1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BCD2ACBD0320026AB1A /* SceneDelegate.swift */; };
+		5A7E8BD12ACBD0320026AB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BCF2ACBD0320026AB1A /* LaunchScreen.storyboard */; };
+		5A7E8BD42ACBD0320026AB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BD22ACBD0320026AB1A /* Main.storyboard */; };
+		5A7E8BDD2ACBD0320026AB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BDC2ACBD0320026AB1A /* AppDelegate.swift */; };
+		5A7E8BE02ACBD0320026AB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BDE2ACBD0320026AB1A /* Main.storyboard */; };
+		5A7E8BE72ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5A7E8BE62ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A7E8BF12ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5A7E8BF02ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A7E8BF72ACBD0320026AB1A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB22ACBD0310026AB1A /* Main.html */; };
+		5A7E8BF82ACBD0320026AB1A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB22ACBD0310026AB1A /* Main.html */; };
+		5A7E8BF92ACBD0320026AB1A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB42ACBD0310026AB1A /* Icon.png */; };
+		5A7E8BFA2ACBD0320026AB1A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB42ACBD0310026AB1A /* Icon.png */; };
+		5A7E8BFB2ACBD0320026AB1A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB52ACBD0310026AB1A /* Style.css */; };
+		5A7E8BFC2ACBD0320026AB1A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB52ACBD0310026AB1A /* Style.css */; };
+		5A7E8BFD2ACBD0320026AB1A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB62ACBD0310026AB1A /* Script.js */; };
+		5A7E8BFE2ACBD0320026AB1A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB62ACBD0310026AB1A /* Script.js */; };
+		5A7E8BFF2ACBD0320026AB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB72ACBD0310026AB1A /* ViewController.swift */; };
+		5A7E8C002ACBD0320026AB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB72ACBD0310026AB1A /* ViewController.swift */; };
+		5A7E8C012ACBD0320026AB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB82ACBD0320026AB1A /* Assets.xcassets */; };
+		5A7E8C022ACBD0320026AB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BB82ACBD0320026AB1A /* Assets.xcassets */; };
+		5A7E8C032ACBD0320026AB1A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBA2ACBD0320026AB1A /* SafariWebExtensionHandler.swift */; };
+		5A7E8C042ACBD0320026AB1A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBA2ACBD0320026AB1A /* SafariWebExtensionHandler.swift */; };
+		5A7E8C052ACBD0320026AB1A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBC2ACBD0320026AB1A /* _locales */; };
+		5A7E8C062ACBD0320026AB1A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBC2ACBD0320026AB1A /* _locales */; };
+		5A7E8C072ACBD0320026AB1A /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBD2ACBD0320026AB1A /* images */; };
+		5A7E8C082ACBD0320026AB1A /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBD2ACBD0320026AB1A /* images */; };
+		5A7E8C092ACBD0320026AB1A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBE2ACBD0320026AB1A /* manifest.json */; };
+		5A7E8C0A2ACBD0320026AB1A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBE2ACBD0320026AB1A /* manifest.json */; };
+		5A7E8C0B2ACBD0320026AB1A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBF2ACBD0320026AB1A /* background.js */; };
+		5A7E8C0C2ACBD0320026AB1A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BBF2ACBD0320026AB1A /* background.js */; };
+		5A7E8C0D2ACBD0320026AB1A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC02ACBD0320026AB1A /* content.js */; };
+		5A7E8C0E2ACBD0320026AB1A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC02ACBD0320026AB1A /* content.js */; };
+		5A7E8C0F2ACBD0320026AB1A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC12ACBD0320026AB1A /* popup.html */; };
+		5A7E8C102ACBD0320026AB1A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC12ACBD0320026AB1A /* popup.html */; };
+		5A7E8C112ACBD0320026AB1A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC22ACBD0320026AB1A /* popup.css */; };
+		5A7E8C122ACBD0320026AB1A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC22ACBD0320026AB1A /* popup.css */; };
+		5A7E8C132ACBD0320026AB1A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC32ACBD0320026AB1A /* popup.js */; };
+		5A7E8C142ACBD0320026AB1A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A7E8BC32ACBD0320026AB1A /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A7E8BE82ACBD0320026AB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7E8BAC2ACBD0310026AB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7E8BE52ACBD0320026AB1A;
+			remoteInfo = "JiraKanbanHeaderHider Extension (iOS)";
+		};
+		5A7E8BF22ACBD0320026AB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7E8BAC2ACBD0310026AB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7E8BEF2ACBD0320026AB1A;
+			remoteInfo = "JiraKanbanHeaderHider Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A7E8C1A2ACBD0320026AB1A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A7E8BE72ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8C212ACBD0320026AB1A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A7E8BF12ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A7E8BB32ACBD0310026AB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		5A7E8BB42ACBD0310026AB1A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5A7E8BB52ACBD0310026AB1A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		5A7E8BB62ACBD0310026AB1A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		5A7E8BB72ACBD0310026AB1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A7E8BB82ACBD0320026AB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A7E8BBA2ACBD0320026AB1A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5A7E8BBC2ACBD0320026AB1A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		5A7E8BBD2ACBD0320026AB1A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		5A7E8BBE2ACBD0320026AB1A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		5A7E8BBF2ACBD0320026AB1A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		5A7E8BC02ACBD0320026AB1A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		5A7E8BC12ACBD0320026AB1A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		5A7E8BC22ACBD0320026AB1A /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		5A7E8BC32ACBD0320026AB1A /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		5A7E8BC82ACBD0320026AB1A /* JiraKanbanHeaderHider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraKanbanHeaderHider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E8BCB2ACBD0320026AB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A7E8BCD2ACBD0320026AB1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A7E8BD02ACBD0320026AB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A7E8BD32ACBD0320026AB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7E8BD52ACBD0320026AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7E8BDA2ACBD0320026AB1A /* JiraKanbanHeaderHider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraKanbanHeaderHider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E8BDC2ACBD0320026AB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A7E8BDF2ACBD0320026AB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7E8BE12ACBD0320026AB1A /* JiraKanbanHeaderHider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JiraKanbanHeaderHider.entitlements; sourceTree = "<group>"; };
+		5A7E8BE62ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JiraKanbanHeaderHider Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E8BEB2ACBD0320026AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7E8BF02ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JiraKanbanHeaderHider Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7E8BF52ACBD0320026AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7E8BF62ACBD0320026AB1A /* JiraKanbanHeaderHider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JiraKanbanHeaderHider.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7E8BC52ACBD0320026AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BD72ACBD0320026AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BE32ACBD0320026AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BED2ACBD0320026AB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A7E8BAB2ACBD0310026AB1A = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BB02ACBD0310026AB1A /* Shared (App) */,
+				5A7E8BB92ACBD0320026AB1A /* Shared (Extension) */,
+				5A7E8BCA2ACBD0320026AB1A /* iOS (App) */,
+				5A7E8BDB2ACBD0320026AB1A /* macOS (App) */,
+				5A7E8BEA2ACBD0320026AB1A /* iOS (Extension) */,
+				5A7E8BF42ACBD0320026AB1A /* macOS (Extension) */,
+				5A7E8BC92ACBD0320026AB1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A7E8BB02ACBD0310026AB1A /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BB72ACBD0310026AB1A /* ViewController.swift */,
+				5A7E8BB82ACBD0320026AB1A /* Assets.xcassets */,
+				5A7E8BB12ACBD0310026AB1A /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		5A7E8BB12ACBD0310026AB1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BB22ACBD0310026AB1A /* Main.html */,
+				5A7E8BB42ACBD0310026AB1A /* Icon.png */,
+				5A7E8BB52ACBD0310026AB1A /* Style.css */,
+				5A7E8BB62ACBD0310026AB1A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A7E8BB92ACBD0320026AB1A /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BBA2ACBD0320026AB1A /* SafariWebExtensionHandler.swift */,
+				5A7E8BBB2ACBD0320026AB1A /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		5A7E8BBB2ACBD0320026AB1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BBC2ACBD0320026AB1A /* _locales */,
+				5A7E8BBD2ACBD0320026AB1A /* images */,
+				5A7E8BBE2ACBD0320026AB1A /* manifest.json */,
+				5A7E8BBF2ACBD0320026AB1A /* background.js */,
+				5A7E8BC02ACBD0320026AB1A /* content.js */,
+				5A7E8BC12ACBD0320026AB1A /* popup.html */,
+				5A7E8BC22ACBD0320026AB1A /* popup.css */,
+				5A7E8BC32ACBD0320026AB1A /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A7E8BC92ACBD0320026AB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BC82ACBD0320026AB1A /* JiraKanbanHeaderHider.app */,
+				5A7E8BDA2ACBD0320026AB1A /* JiraKanbanHeaderHider.app */,
+				5A7E8BE62ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */,
+				5A7E8BF02ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A7E8BCA2ACBD0320026AB1A /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BCB2ACBD0320026AB1A /* AppDelegate.swift */,
+				5A7E8BCD2ACBD0320026AB1A /* SceneDelegate.swift */,
+				5A7E8BCF2ACBD0320026AB1A /* LaunchScreen.storyboard */,
+				5A7E8BD22ACBD0320026AB1A /* Main.storyboard */,
+				5A7E8BD52ACBD0320026AB1A /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		5A7E8BDB2ACBD0320026AB1A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BDC2ACBD0320026AB1A /* AppDelegate.swift */,
+				5A7E8BDE2ACBD0320026AB1A /* Main.storyboard */,
+				5A7E8BE12ACBD0320026AB1A /* JiraKanbanHeaderHider.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		5A7E8BEA2ACBD0320026AB1A /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BEB2ACBD0320026AB1A /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		5A7E8BF42ACBD0320026AB1A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5A7E8BF52ACBD0320026AB1A /* Info.plist */,
+				5A7E8BF62ACBD0320026AB1A /* JiraKanbanHeaderHider.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A7E8BC72ACBD0320026AB1A /* JiraKanbanHeaderHider (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7E8C1B2ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider (iOS)" */;
+			buildPhases = (
+				5A7E8BC42ACBD0320026AB1A /* Sources */,
+				5A7E8BC52ACBD0320026AB1A /* Frameworks */,
+				5A7E8BC62ACBD0320026AB1A /* Resources */,
+				5A7E8C1A2ACBD0320026AB1A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7E8BE92ACBD0320026AB1A /* PBXTargetDependency */,
+			);
+			name = "JiraKanbanHeaderHider (iOS)";
+			productName = "JiraKanbanHeaderHider (iOS)";
+			productReference = 5A7E8BC82ACBD0320026AB1A /* JiraKanbanHeaderHider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A7E8BD92ACBD0320026AB1A /* JiraKanbanHeaderHider (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7E8C222ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider (macOS)" */;
+			buildPhases = (
+				5A7E8BD62ACBD0320026AB1A /* Sources */,
+				5A7E8BD72ACBD0320026AB1A /* Frameworks */,
+				5A7E8BD82ACBD0320026AB1A /* Resources */,
+				5A7E8C212ACBD0320026AB1A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7E8BF32ACBD0320026AB1A /* PBXTargetDependency */,
+			);
+			name = "JiraKanbanHeaderHider (macOS)";
+			productName = "JiraKanbanHeaderHider (macOS)";
+			productReference = 5A7E8BDA2ACBD0320026AB1A /* JiraKanbanHeaderHider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A7E8BE52ACBD0320026AB1A /* JiraKanbanHeaderHider Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7E8C172ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider Extension (iOS)" */;
+			buildPhases = (
+				5A7E8BE22ACBD0320026AB1A /* Sources */,
+				5A7E8BE32ACBD0320026AB1A /* Frameworks */,
+				5A7E8BE42ACBD0320026AB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JiraKanbanHeaderHider Extension (iOS)";
+			productName = "JiraKanbanHeaderHider Extension (iOS)";
+			productReference = 5A7E8BE62ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5A7E8BEF2ACBD0320026AB1A /* JiraKanbanHeaderHider Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7E8C1E2ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider Extension (macOS)" */;
+			buildPhases = (
+				5A7E8BEC2ACBD0320026AB1A /* Sources */,
+				5A7E8BED2ACBD0320026AB1A /* Frameworks */,
+				5A7E8BEE2ACBD0320026AB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JiraKanbanHeaderHider Extension (macOS)";
+			productName = "JiraKanbanHeaderHider Extension (macOS)";
+			productReference = 5A7E8BF02ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A7E8BAC2ACBD0310026AB1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5A7E8BC72ACBD0320026AB1A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5A7E8BD92ACBD0320026AB1A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5A7E8BE52ACBD0320026AB1A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5A7E8BEF2ACBD0320026AB1A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5A7E8BAF2ACBD0310026AB1A /* Build configuration list for PBXProject "JiraKanbanHeaderHider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A7E8BAB2ACBD0310026AB1A;
+			productRefGroup = 5A7E8BC92ACBD0320026AB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7E8BC72ACBD0320026AB1A /* JiraKanbanHeaderHider (iOS) */,
+				5A7E8BD92ACBD0320026AB1A /* JiraKanbanHeaderHider (macOS) */,
+				5A7E8BE52ACBD0320026AB1A /* JiraKanbanHeaderHider Extension (iOS) */,
+				5A7E8BEF2ACBD0320026AB1A /* JiraKanbanHeaderHider Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7E8BC62ACBD0320026AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8BF92ACBD0320026AB1A /* Icon.png in Resources */,
+				5A7E8BD12ACBD0320026AB1A /* LaunchScreen.storyboard in Resources */,
+				5A7E8BF72ACBD0320026AB1A /* Main.html in Resources */,
+				5A7E8BFD2ACBD0320026AB1A /* Script.js in Resources */,
+				5A7E8C012ACBD0320026AB1A /* Assets.xcassets in Resources */,
+				5A7E8BD42ACBD0320026AB1A /* Main.storyboard in Resources */,
+				5A7E8BFB2ACBD0320026AB1A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BD82ACBD0320026AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8BFA2ACBD0320026AB1A /* Icon.png in Resources */,
+				5A7E8BFC2ACBD0320026AB1A /* Style.css in Resources */,
+				5A7E8BE02ACBD0320026AB1A /* Main.storyboard in Resources */,
+				5A7E8BFE2ACBD0320026AB1A /* Script.js in Resources */,
+				5A7E8C022ACBD0320026AB1A /* Assets.xcassets in Resources */,
+				5A7E8BF82ACBD0320026AB1A /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BE42ACBD0320026AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8C0B2ACBD0320026AB1A /* background.js in Resources */,
+				5A7E8C112ACBD0320026AB1A /* popup.css in Resources */,
+				5A7E8C0F2ACBD0320026AB1A /* popup.html in Resources */,
+				5A7E8C072ACBD0320026AB1A /* images in Resources */,
+				5A7E8C092ACBD0320026AB1A /* manifest.json in Resources */,
+				5A7E8C052ACBD0320026AB1A /* _locales in Resources */,
+				5A7E8C0D2ACBD0320026AB1A /* content.js in Resources */,
+				5A7E8C132ACBD0320026AB1A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BEE2ACBD0320026AB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8C0C2ACBD0320026AB1A /* background.js in Resources */,
+				5A7E8C122ACBD0320026AB1A /* popup.css in Resources */,
+				5A7E8C102ACBD0320026AB1A /* popup.html in Resources */,
+				5A7E8C082ACBD0320026AB1A /* images in Resources */,
+				5A7E8C0A2ACBD0320026AB1A /* manifest.json in Resources */,
+				5A7E8C062ACBD0320026AB1A /* _locales in Resources */,
+				5A7E8C0E2ACBD0320026AB1A /* content.js in Resources */,
+				5A7E8C142ACBD0320026AB1A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A7E8BC42ACBD0320026AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8BFF2ACBD0320026AB1A /* ViewController.swift in Sources */,
+				5A7E8BCC2ACBD0320026AB1A /* AppDelegate.swift in Sources */,
+				5A7E8BCE2ACBD0320026AB1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BD62ACBD0320026AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8C002ACBD0320026AB1A /* ViewController.swift in Sources */,
+				5A7E8BDD2ACBD0320026AB1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BE22ACBD0320026AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8C032ACBD0320026AB1A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7E8BEC2ACBD0320026AB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7E8C042ACBD0320026AB1A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A7E8BE92ACBD0320026AB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7E8BE52ACBD0320026AB1A /* JiraKanbanHeaderHider Extension (iOS) */;
+			targetProxy = 5A7E8BE82ACBD0320026AB1A /* PBXContainerItemProxy */;
+		};
+		5A7E8BF32ACBD0320026AB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7E8BEF2ACBD0320026AB1A /* JiraKanbanHeaderHider Extension (macOS) */;
+			targetProxy = 5A7E8BF22ACBD0320026AB1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A7E8BB22ACBD0310026AB1A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7E8BB32ACBD0310026AB1A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5A7E8BCF2ACBD0320026AB1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7E8BD02ACBD0320026AB1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7E8BD22ACBD0320026AB1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7E8BD32ACBD0320026AB1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7E8BDE2ACBD0320026AB1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7E8BDF2ACBD0320026AB1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A7E8C152ACBD0320026AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A7E8C162ACBD0320026AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5A7E8C182ACBD0320026AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JiraKanbanHeaderHider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider.Extension;
+				PRODUCT_NAME = "JiraKanbanHeaderHider Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A7E8C192ACBD0320026AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JiraKanbanHeaderHider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider.Extension;
+				PRODUCT_NAME = "JiraKanbanHeaderHider Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7E8C1C2ACBD0320026AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JiraKanbanHeaderHider;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider;
+				PRODUCT_NAME = JiraKanbanHeaderHider;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A7E8C1D2ACBD0320026AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JiraKanbanHeaderHider;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider;
+				PRODUCT_NAME = JiraKanbanHeaderHider;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7E8C1F2ACBD0320026AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/JiraKanbanHeaderHider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JiraKanbanHeaderHider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider.Extension;
+				PRODUCT_NAME = "JiraKanbanHeaderHider Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A7E8C202ACBD0320026AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/JiraKanbanHeaderHider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JiraKanbanHeaderHider Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider.Extension;
+				PRODUCT_NAME = "JiraKanbanHeaderHider Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5A7E8C232ACBD0320026AB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/JiraKanbanHeaderHider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = JiraKanbanHeaderHider;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider;
+				PRODUCT_NAME = JiraKanbanHeaderHider;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A7E8C242ACBD0320026AB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/JiraKanbanHeaderHider.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = JiraKanbanHeaderHider;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.apua.JiraKanbanHeaderHider;
+				PRODUCT_NAME = JiraKanbanHeaderHider;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A7E8BAF2ACBD0310026AB1A /* Build configuration list for PBXProject "JiraKanbanHeaderHider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7E8C152ACBD0320026AB1A /* Debug */,
+				5A7E8C162ACBD0320026AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7E8C172ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7E8C182ACBD0320026AB1A /* Debug */,
+				5A7E8C192ACBD0320026AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7E8C1B2ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7E8C1C2ACBD0320026AB1A /* Debug */,
+				5A7E8C1D2ACBD0320026AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7E8C1E2ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7E8C1F2ACBD0320026AB1A /* Debug */,
+				5A7E8C202ACBD0320026AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7E8C222ACBD0320026AB1A /* Build configuration list for PBXNativeTarget "JiraKanbanHeaderHider (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7E8C232ACBD0320026AB1A /* Debug */,
+				5A7E8C242ACBD0320026AB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A7E8BAC2ACBD0310026AB1A /* Project object */;
+}
