@@ -120,6 +120,7 @@
 		5A7E8BF02ACBD0320026AB1A /* JiraKanbanHeaderHider Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JiraKanbanHeaderHider Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7E8BF52ACBD0320026AB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A7E8BF62ACBD0320026AB1A /* JiraKanbanHeaderHider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JiraKanbanHeaderHider.entitlements; sourceTree = "<group>"; };
+		5AF8D0B82ACC109100AF3144 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +158,7 @@
 		5A7E8BAB2ACBD0310026AB1A = {
 			isa = PBXGroup;
 			children = (
+				5AF8D0B82ACC109100AF3144 /* README.md */,
 				5A7E8BB02ACBD0310026AB1A /* Shared (App) */,
 				5A7E8BB92ACBD0320026AB1A /* Shared (Extension) */,
 				5A7E8BCA2ACBD0320026AB1A /* iOS (App) */,
