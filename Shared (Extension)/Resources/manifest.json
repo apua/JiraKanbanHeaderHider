@@ -20,7 +20,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "*://sifive.atlassian.net/jira/software/c/projects/VI/boards/330" ]
     }],
 
     "action": {
